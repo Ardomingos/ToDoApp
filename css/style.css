@@ -129,3 +129,16 @@ body{
     border-radius: 25px;   
 }
 
+.task-box::-webkit-scrollbar-thumb{
+    background: #e6e6e6;
+    border-radius: 25px;
+}
+
+.task-box .task{
+    list-style: none;
+    font-size: 17px;
+    margin-bottom: 18px;
+    padding-bottom: 16px;
+    align-self: flex-start;
+    border-bottom: 1px solid #ccc;
+}
